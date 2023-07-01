@@ -134,15 +134,32 @@ font-family: var(--secondary-font);
   font-weight: 400;
 }
 
+
+
 @media (max-width: 1200px) {
   .header {
     display: flex;
-    justify-content: center;
-    padding: 10%;
+    justify-content: space-around;
+    align-items: start;
+    padding: 8% 5% 5% 5%;
+  }
+
+  .header__menu {
+    width: 100%;
+    justify-content: space-around;
+    gap: 10%
+  }
+
+  .header__menu__link {
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 2%;
+    text-align: center;
   }
   
   .presentation {
-    text-align: justify;
+    text-align: left;
+    padding: 5% 5%;
   }
   
   .presentation__links_navigation {
@@ -151,5 +168,11 @@ font-family: var(--secondary-font);
   
   .footer {
     margin-top: 5%;
+  }
+}
+
+@media (max-width: 380px) {
+  .presentation__links__navigation {
+    width: 100%;
   }
 }
