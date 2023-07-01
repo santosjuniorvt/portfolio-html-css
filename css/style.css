@@ -157,11 +157,11 @@ font-family: var(--secondary-font);
     text-align: center;
   }
   
-  .presentation {
+  .presentation,.about__presentation {
     text-align: left;
     padding: 5% 5%;
   }
-  
+
   .presentation__links_navigation {
   background-color: var(--hover-color);
   }
