@@ -1,1 +1,1 @@
-# portifolio made with html and css
+# portfolio made with html and css
